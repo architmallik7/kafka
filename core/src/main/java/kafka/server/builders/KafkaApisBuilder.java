@@ -156,7 +156,7 @@ public class KafkaApisBuilder {
         this.apiVersionManager = apiVersionManager;
         return this;
     }
-
+// Testing BI
     public KafkaApis build() {
         if (requestChannel == null) throw new RuntimeException("you must set requestChannel");
         if (metadataSupport == null) throw new RuntimeException("you must set metadataSupport");
